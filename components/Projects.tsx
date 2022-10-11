@@ -14,7 +14,7 @@ const Projects: React.FC = ({ projects }: any) => {
         {projects &&
           projects.map((project) => {
             return (
-              <Project project={project} />
+              <Project key={project.title} project={project} />
             );
           })}
       </div>

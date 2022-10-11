@@ -22,8 +22,8 @@ function Testimonials() {
   return (
     <div className=" relative overflow-hidden flex-col flex justify-center container mt-24  mx-auto 2xl:mt-48 font-poppins text-center">
       <div className=" text-6xl 2xl:text-8xl font-bold">Testimonials</div>
-      <div className=" border-b border-stone-700 pb-6 mt-4 text-xl 2xl:text-xl text-stone-400 font-poppins">
-        These are some of the feedbacks I've received on
+      <p className=" border-b border-stone-700 pb-6 mt-4 text-xl 2xl:text-xl text-stone-400 font-poppins">
+        {"These are some of the feedbacks I've received on"}
         <Link
           href="https://www.upwork.com/freelancers/~01b352b10a5e23d05d"
           passHref
@@ -36,7 +36,7 @@ function Testimonials() {
             {" Upwork"}
           </a>
         </Link>
-      </div>
+      </p>
       <div className="relative 2xl:h-[25rem] xl:h-[15rem] h-fit">
         {testimoionals.map((item, index) => {
           return (

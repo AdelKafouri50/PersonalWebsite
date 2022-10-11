@@ -40,7 +40,7 @@ export const components = {
           className="text-rose-100/90 underline decoration-rose-200/30 underline-offset-2 transition-all hover:text-rose-100 hover:decoration-rose-200/50"
           href={href}
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
           {...props}
         />
       );

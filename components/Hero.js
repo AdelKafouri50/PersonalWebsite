@@ -25,7 +25,7 @@ function Hero() {
               <br /> and a Curious Learner by heart.
             </div>
           </div>
-          <div className="mt-4 2xl:text-xl text-stone-400 font-poppins">
+          <p className="mt-4 2xl:text-xl text-stone-400 font-poppins">
             During my time in school, I explored different areas in the
             Engineering world,
             <br />
@@ -33,10 +33,10 @@ function Hero() {
             other electronic parts, <br /> to staying up all night coding up a
             2D car racing game.
             <br /> <br />
-            After getting my Bachelor's in Computer Engineering, and a post
+            After getting my {"Bachelor's"} in Computer Engineering, and a post
             graduate diploma in Web Development, <br /> I decided to start
             working as a Freelance Developer on Upwork, and throughout the
-            years, <br /> I've managed to achieve the Top Rated Plus Status{" "}
+            years, <br /> {"I've"} managed to achieve the Top Rated Plus Status{" "}
             <RoughNotation show="true" type="highlight" color="#5493E8" padding=''>
               <span className=" text-white">(Top 3% On the Platform)</span>.
             </RoughNotation>
@@ -47,7 +47,7 @@ function Hero() {
             <RoughNotation type="underline" show="true" color="red" order="3">
               hire me ;)
             </RoughNotation>
-          </div>
+          </p>
           <div className="flex gap-4 mt-10 font-poppins text-xl">
             <a href="#Contact" className="p-4 border rounded-md bg-white text-black cursor-pointer">
               Contact me
