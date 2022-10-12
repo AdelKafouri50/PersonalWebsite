@@ -30,7 +30,7 @@ export const getStaticProps: GetStaticProps<{ project: Project }> = ({
 export default function SingleProjectPage({ project, }: InferGetStaticPropsType<typeof getStaticProps>) {
   const MDXContent = useMDXComponent(project.body.code);
   return (
-    <div className="container mx-auto my-20 font-poppins 2xl:text-3xl xl:text-xl font-thin">
+    <div className="sm:container mx-10 sm:mx-auto my-20 font-poppins 2xl:text-3xl xl:text-xl font-thin">
       <h1 className="2xl:text-8xl xl:text-6xl font-bold mb-6">
         {project.title}
       </h1>
