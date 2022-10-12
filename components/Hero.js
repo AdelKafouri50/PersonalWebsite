@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import Link from "node_modules/next/link";
-import { SiUpwork } from "react-icons/si";
 function Hero() {
   return (
     <div className="container border rounded-md border-stone-700 mx-auto p-20 mt-40 bg-[#181818] text-center">
