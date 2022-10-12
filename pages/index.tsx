@@ -22,7 +22,7 @@ export default function Home({
       <Head>
         <title>Adel Kafouri</title>
         <meta name="description" content="Adel Kafouri's personal portfolio and blog" />
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" href="/me3.jpeg" />
       </Head>
       <Hero />
       <Testimonials />
