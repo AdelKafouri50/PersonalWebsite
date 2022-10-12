@@ -4,7 +4,7 @@ import Link from "node_modules/next/link"
 function ProjectCard({project}) {
   return (
   <Link href={`/projects/${project.slug}`}>
-      <div key={project.slug} className='border-t border-b border-stone-600 my-4 p-8 xl:flex-row flex xl:text-left justify-between cursor-pointer flex-col transition ease-linear duration-200 sm:hover:translate-x-6 '>
+      <div key={project.slug} className='border-t  border-stone-600 my-4 p-8 xl:flex-row flex xl:text-left justify-between cursor-pointer flex-col transition ease-linear duration-200 sm:hover:translate-x-6 '>
         <div className="xl:border-l-8 pl-6 border-green-500">
             <div className=" p-6 cursor-pointer  text-white text-poppins lg:text-5xl text-4xl  font-poppins font-bold">{project.title}</div>
           <div className="text-3xl text-stone-400 m-6">
