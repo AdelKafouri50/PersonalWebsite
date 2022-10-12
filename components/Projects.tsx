@@ -10,7 +10,7 @@ interface Projects {
 
 const Projects: React.FC<Projects> = ({ projects }: Projects) => {
   return (
-    <div className="border-t py-36 border-stone-700 flex container flex-col mx-auto mt-24 2xl:mt-24 text-center">
+    <div className="border-t border-b pt-36 border-stone-700 flex container flex-col mx-auto mt-24 2xl:mt-24 text-center">
       <div className="text-6xl 2xl:text-8xl font-bold">Projects</div>
       <div className="mt-4 text-xl 2xl:text-2xl text-stone-400 font-poppins">
         Here is a selections of my favorite projects
