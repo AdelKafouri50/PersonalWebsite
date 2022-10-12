@@ -4,6 +4,7 @@ import { useMDXComponent } from "next-contentlayer/hooks";
 import { components } from "components/MDXComponents";
 import { BiArrowBack } from "react-icons/bi";
 import Link from "node_modules/next/link";
+import Head from "node_modules/next/head";
 
 export const getStaticPaths = () => {
   return {
@@ -31,6 +32,10 @@ export default function SingleProjectPage({ project, }: InferGetStaticPropsType<
   const MDXContent = useMDXComponent(project.body.code);
   return (
     <div className="sm:container mx-10 sm:mx-auto my-20 font-poppins 2xl:text-3xl xl:text-xl font-thin">
+      <Head>
+        <title>{project.title}</title>
+        <meta name="description" content={`${project.description}`} />
+      </Head>
       <h1 className="2xl:text-8xl xl:text-6xl font-bold mb-6">
         {project.title}
       </h1>
