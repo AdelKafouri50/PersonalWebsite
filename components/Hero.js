@@ -49,7 +49,7 @@ function Hero() {
             </RoughNotation>
           </p>
           <div className="flex gap-4 mt-10 font-poppins text-xl">
-            <a href="#Contact" className="p-4 border rounded-md bg-white text-black cursor-pointer">
+            <a href="#Contact" className="p-4 border rounded-md bg-white text-black cursor-pointer transition ease-linear hover:bg-[#181818] hover:text-white hover:border-white duration-200">
               Contact me
             </a>
             <Link
@@ -59,7 +59,7 @@ function Hero() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" p-4 border rounded-md cursor-pointer bg-green-500 border-green-500 text-black"
+                className=" p-4 border rounded-md cursor-pointer bg-green-500 border-green-500 text-black transition ease-linear hover:bg-[#181818] hover:text-green-500 hover:border-green-500 duration-200"
               >
                 View Upwork
               </a>

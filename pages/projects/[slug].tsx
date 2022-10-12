@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps<{ project: Project }> = ({
   };
 };
 
-export default function SingleProjectPage({ project }) {
+export default function SingleProjectPage({ project, }: InferGetStaticPropsType<typeof getStaticProps>) {
   const MDXContent = useMDXComponent(project.body.code);
   return (
     <div className="container mx-auto my-20 font-poppins 2xl:text-3xl xl:text-xl font-thin">

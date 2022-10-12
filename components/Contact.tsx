@@ -16,7 +16,7 @@ function Contact() {
                 rel="noopener noreferrer"
                 className="cursor-pointer text-blue-400"
               >
-                Linkedin
+                {' '}Linkedin
               </a>
             </Link>,             
             <Link
@@ -28,7 +28,7 @@ function Contact() {
                 rel="noopener noreferrer"
                 className="cursor-pointer text-white"
               >
-                Github
+                {' '}Github
               </a>
             </Link>, and {''}
             <Link

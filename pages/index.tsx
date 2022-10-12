@@ -1,12 +1,15 @@
-import { allProjects, type Project } from "contentlayer/generated";
+import { allProjects,  Project } from "contentlayer/generated";
 import { type GetStaticProps, type InferGetStaticPropsType } from "next";
 import Head from "next/head";
 import Hero from "../components/Hero";
 import Testimonials from "../components/Testimonials";
 import Projects from "../components/Projects";
 import Contact from "components/Contact";
+
+
+
 export const getStaticProps: GetStaticProps<{
-  projects: Project[];
+  projects:Project[];
 }> = () => {
   return { props: { projects: allProjects } };
 };

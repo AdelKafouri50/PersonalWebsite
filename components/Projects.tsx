@@ -1,9 +1,14 @@
 import React from "react";
 import Link from "node_modules/next/link";
 import Image from "node_modules/next/image";
-import Project from "./Project";
+import ProjectCard from "./ProjectCard";
+import { type Project } from "contentlayer/generated";
 
-const Projects: React.FC = ({ projects }: any) => {
+interface Projects {
+  projects: Project[]
+}
+
+const Projects: React.FC<Projects> = ({ projects }: Projects) => {
   return (
     <div className="border-t py-36 border-stone-700 flex container flex-col mx-auto mt-24 2xl:mt-24 text-center">
       <div className="text-6xl 2xl:text-8xl font-bold">Projects</div>
@@ -14,7 +19,7 @@ const Projects: React.FC = ({ projects }: any) => {
         {projects &&
           projects.map((project) => {
             return (
-              <Project key={project.title} project={project} />
+              <ProjectCard key={project.title} project={project} />
             );
           })}
       </div>
