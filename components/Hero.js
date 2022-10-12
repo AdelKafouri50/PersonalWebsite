@@ -39,7 +39,7 @@ function Hero() {
               <span className=" text-white">(Top 3% On the Platform)</span>.
             </RoughNotation>
             <br />
-            and I've successully maintained the status ever since.
+            and {"I've"} successully maintained the status ever since.
             <br />
             <br />
             Recently I started looking for a new role as a developer, so if you
