@@ -8,7 +8,7 @@ function Header() {
   const [TooltipHidden, setTooltipHidden] = useState(true)
 
   return (
-    <div className="w-auto flex justify-between sm:container mx-10 mt-10  md:mx-auto font-poppins">
+    <div className="w-auto flex justify-between sm:container mx-10 mt-10  sm:mx-auto font-poppins">
       <Link href="/">
         <a>Adel Kafouri</a>
       </Link>

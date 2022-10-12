@@ -3,7 +3,7 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import Link from "node_modules/next/link";
 function Hero() {
   return (
-    <div className="container border rounded-md border-stone-700 mx-auto p-20 mt-40 bg-[#181818] text-center">
+    <div className="w-fit sm:container border rounded-md border-stone-700 mx-auto p-20 mt-40 bg-[#181818] text-center">
       <RoughNotationGroup show="true">
         <div className="flex flex-col items-center">
           <div className="-mt-44  px-3   bg-black rounded-full ">
