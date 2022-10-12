@@ -35,7 +35,7 @@ function Hero() {
             After getting my {"Bachelor's"} in Computer Engineering, and a post
             graduate diploma in Web Development, <br /> I decided to start
             working as a Freelance Developer on Upwork, and throughout the
-            years, <br /> {"I've"} managed to achieve the Top Rated Plus Status{" "}
+            years, <br /> {"I've"} managed to achieve the Top Rated Plus Status{" "}<br/>
             <RoughNotation show="true" type="highlight" color="#5493E8" padding=''>
               <span className=" text-white">(Top 3% On the Platform)</span>.
             </RoughNotation>
