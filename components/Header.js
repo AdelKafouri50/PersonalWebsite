@@ -1,8 +1,7 @@
 import Link from "node_modules/next/link";
 import { useState } from "react";
-import { SiUpwork } from "react-icons/si";
-import { BsLinkedin } from "react-icons/Bs";
-import { BsGithub } from "react-icons/Bs";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 
 function Header() {
