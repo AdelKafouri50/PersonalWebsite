@@ -3,7 +3,7 @@ function Contact() {
   return (
     <div className="border-t py-36 border-stone-700 flex container flex-col mx-auto mt-24 2xl:mt-24 text-center">
         <div className="text-3xl 2xl:text-8xl font-bold">
-            Get it touch
+            Get in touch
         </div>
         <div className="mt-4 2xl:text-2xl text-stone-400 font-poppins">
             If you have a job opportunity for me, or a project you would like to discuss with me, feel free to email me at <span className="text-rose-300 cursor-default">Adelkafouri50@gmail.com</span>, you can also find me on             
