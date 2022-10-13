@@ -17,7 +17,7 @@ export default function Home({
   return (
     <div className="mx-10">
       <Head>
-        <title>Adel's blog</title>
+        <title>{"Adel's"} blog</title>
         <meta name="description" content="Adel Kafouri's personal blog" />
         <link rel="icon" href="/me3.jpeg" />
       </Head>
