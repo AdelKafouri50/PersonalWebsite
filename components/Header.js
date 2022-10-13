@@ -1,11 +1,11 @@
 import Link from "node_modules/next/link";
-import { useState } from "react";
+// import { useState } from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 
 
 function Header() {
-  const [TooltipHidden, setTooltipHidden] = useState(true)
+  // const [TooltipHidden, setTooltipHidden] = useState(true)
 
   return (
     <div className="w-auto flex justify-between sm:container mx-10 mt-10  sm:mx-auto font-poppins">
@@ -13,11 +13,19 @@ function Header() {
         <a>Adel Kafouri</a>
       </Link>
       <div className="flex gap-3 relative  pl-10 ">
-        <div className={`absolute border-white-400 text-white bg-stone-700 p-3 text-sm rounded-md top-8 left-0 ${TooltipHidden?'hidden':'block'}`}>
+        {/* <div className={`absolute border-white-400 text-white bg-stone-700 p-3 text-sm rounded-md top-8 left-0 ${TooltipHidden?'hidden':'block'}`}>
           Coming Soon
-        </div>
-        <div className="cursor-default text-gray-400" onMouseEnter={() => setTooltipHidden(false)} onMouseLeave={() => setTooltipHidden(true)}>
-          Blog
+        </div> */}
+        <div className="cursor-default text-white">
+          <Link
+            href="/blog"
+            passHref
+          >
+            <a
+            >
+              {" Blog"}
+            </a>
+          </Link>
         </div>
         <div>
           <Link

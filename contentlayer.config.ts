@@ -35,7 +35,11 @@ export const Post = defineDocumentType(() => ({
             type: 'string',
             required: true,
         },
-        thumbnail : {
+        publishedAt: {
+            type: 'string',
+            required: true,
+        },
+        description : {
             type: 'string'
         },
     },
@@ -51,5 +55,5 @@ export const Post = defineDocumentType(() => ({
 
 export default makeSource({
     contentDirPath: 'content',
-    documentTypes: [Project, Post],
+    documentTypes: [Post, Project],
 })
