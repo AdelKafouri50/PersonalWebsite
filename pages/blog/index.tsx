@@ -8,7 +8,12 @@ import Posts from "components/Posts";
 export const getStaticProps: GetStaticProps<{
   posts:Post[];
 }> = () => {
-  return { props: { posts: allPosts } };
+    let sortedPosts = allPosts.sort((a, b) => {
+        const dateA = a.publishedAt
+        const dateB = b.publishedAt
+        return +new Date(dateA) - +new Date(dateB);
+      })
+  return { props: { posts: sortedPosts } };
 };
 
 export default function Home({
