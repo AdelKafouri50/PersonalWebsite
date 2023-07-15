@@ -1,9 +1,11 @@
 function getAnchor(text) {
-  if (text.toLowerCase()){
-    return text
-      .toLowerCase()
-      .replace(/[^a-z0-9 ]/g, '')
-      .replace(/[ ]/g, '-');
+  if (text){
+    if (text.toLowerCase()){
+      return text
+        .toLowerCase()
+        .replace(/[^a-z0-9 ]/g, '')
+        .replace(/[ ]/g, '-');
+  }
   }
   else{
     return text
