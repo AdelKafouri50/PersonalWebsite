@@ -42,10 +42,9 @@ function Hero() {
             and {"I've"} successully maintained the status ever since.
             <br />
             <br />
-            Recently I started looking for a new role as a developer, so if you
-            have an opportunity, feel free to{" "}
+            If you have any request or opportunity for me, feel free to {" "}
             <RoughNotation type="underline" show="true" color="red" order="3">
-              hire me ;)
+              reach out ;)
             </RoughNotation>
           </p>
           <div className="flex gap-4 mt-10 font-poppins text-xl">

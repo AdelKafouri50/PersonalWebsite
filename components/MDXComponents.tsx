@@ -2,6 +2,7 @@ import type { ImageProps } from "next/image";
 import NextLink from "next/link";
 import React from "react";
 import { Aside } from "./Aside";
+import H2 from './H2'
 
 export const components = {
   strong: (props: any) => <strong className=" text-rose-300" {...props} />,
@@ -9,12 +10,7 @@ export const components = {
     <p className="relative leading-normal font-light  " {...props} />
   ),
   Aside,
-  h1: (props: any) => (
-    <h2
-      className="relative mt-3 border-t-2 border-rose-200/5 pt-9 2xl:text-5xl text-white mb-2 2xl:mb-6 font-bold sm:text-3xl"
-      {...props}
-    />
-  ),
+  h1: H2,
   h2: (props: any) => (
     <h3
       className="relative mt-3 border-t-2 border-rose-200/5 pt-9 2xl:text-5xl text-white mb-2 2xl:mb-6 font-bold sm:text-2xl"
