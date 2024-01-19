@@ -21,7 +21,7 @@ export default function Home({
     <div className="mx-10">
       <Head>
         <title>Adel Kafouri</title>
-        <meta name="description" content="Adel Kafouri's personal portfolio and blog" />
+        <meta name="description" content="Hello there. My name is Adel, I'm a Freelance Software Engineer driven by curiosity and a passion for learning. This is my website" />
         <link rel="icon" href="/me3.jpeg" />
       </Head>
       <Hero />

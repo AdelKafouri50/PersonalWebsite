@@ -10,7 +10,7 @@ function Hero() {
             <Image
               className="rounded-full object-cover"
               src="/me3.jpeg"
-              alt="Picture of the Adel Kafouri"
+              alt="Picture of Adel Kafouri"
               width={200}
               height={200}
             />

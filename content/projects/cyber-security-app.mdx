@@ -1,0 +1,101 @@
+---
+title: "A Cyber security app, that has been sold to multiple companies."
+description: "A cyber security app I built for one of my recent clients. It helps cyber security engineers detect and resolve leakages in real time."
+thumbnail: 'plena_screenshot_1.png'
+
+
+---
+
+# The App
+
+The app is a cyber security dashboard with plenty of features. It was built for cyber security engineers to detect and resolve leakages in real time. Unfortunately a lot of the information is confidential, but I'll try to give a brief overview of the app without breaking confidentiality.
+
+<br/>
+<br/>
+<br/>
+![The Dashboard](/plena_screenshot_1.png)
+<br/>
+<br/>
+
+# The Tech Stack
+
+The app was built with **NextJS**, **TypeScript**, **TailwindCSS**
+
+It had all kinds of payments solutions, from **Card Payments**, to **ACH payments** (Bank transfers).
+The payments were handled with **Stripe**, and oh man was stripe connect a pain to work with. The documentation for stripe connect wasnt that fruitful so it took hours upon hours of trial and error, and reading documention, and watching videos, etc... but it all **worked out** in the end.
+
+<br/>
+<br/>
+<br/>
+![Save card view](/StripeInterface.png)
+<br/>
+<br/>
+
+# Plaid
+
+The ACH payments were handled with **Plaid** - A third party API that works with stripe. <br/><br/> Implementing plaid wasn't difficult because the documentation is well made and presented in multiple languages, so both the frontend & backend implementations were **moderately easy**.
+
+<br/>
+<br/>
+<br/>
+![Login to bank with plaid](/PlaidLogin.png)
+<br/>
+<br/>
+
+# Adding and Saving Payment Methods
+
+Here's a video that showcases the functionality of adding, saving, and deleting payment methods to Pendulum, both **bank accounts**, and **cards**.
+
+<br/>
+<br/>
+
+
+<iframe width='100%' height='800' src="https://www.youtube.com/embed/orp_OB1_d_Y" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+
+
+
+# Payment Gateway
+
+The app had functionality that allows **Non Pendulum users** to pay invoices and use the app **without** having to sign up for an account, either using **ACH**, or **Card Payments**, here's a video that showcases the functionality
+
+<br/>
+<br/>
+
+
+<iframe width='100%' height='800' src="https://www.youtube.com/embed/M4KCoX9e3Yc" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+
+# Payments and Reminders
+
+Here's a video that showcases **processing a payment** and sending a **reminder email** to your clients with Pendulum.
+
+<br/>
+<br/>
+
+
+<iframe width='100%' height='800' src="https://www.youtube.com/embed/cbOnn-6tC-g" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+
+# Auth and Database
+
+The user authenticaiton was all made custom with **django** & **django rest framework**, and **PostgreSQL** was the **Database** of choice.
+
+# Animations
+
+The animations in the app were done using the **GSAP** library.
+
+# Styling
+
+All the styling was done with **custom CSS** to allow for as much customization as possible. Looking back at it now, I think it would've been possible to use a framework like **TailwindCSS** to make the development process faster and **more efficient**.
+
+# React
+
+The frontend framework of choice was React, and that was after some back and forth between me and my client, because they were working with **django templates**, and they didn't know that React can take the web app to a **whole new level**, but they were convinced and I **migrated** the building blocks from the django templates, to react and went from there.
+
+# The Unfortunate Ending
+
+The app had so much potential because so much work was put into it, so many functionalities were built, and went through so many iterations. Unfortunately though, the development was put on halt for **financial reasons**.

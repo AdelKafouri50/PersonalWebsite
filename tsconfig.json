@@ -26,6 +26,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".contentlayer/generated"
-  ],
+, "components/H2.js", "components/H2.js"  ],
   "exclude": ["node_modules"]
 }
